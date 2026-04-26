@@ -1,0 +1,6 @@
+{% extends 'library/base.html' %} {% block content %}
+<h2>Members</h2>
+
+{% for member in members %}
+<p>{{ member.name }} - {{ member.email }} - {{ member.phone }}</p>
+{% endfor %} {% endblock %}

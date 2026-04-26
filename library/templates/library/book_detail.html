@@ -1,0 +1,7 @@
+{% extends 'library/base.html' %} {% block content %}
+<h2>{{ book.title }}</h2>
+
+<p><strong>Author:</strong> {{ book.author.name }}</p>
+<p><strong>ISBN:</strong> {{ book.isbn }}</p>
+<p><strong>Available Copies:</strong> {{ book.available_copies }}</p>
+{% endblock %}

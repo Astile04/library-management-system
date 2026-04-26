@@ -1,0 +1,102 @@
+[
+  {
+    "model": "library.author",
+    "pk": 3,
+    "fields": {
+      "name": "George Orwell",
+      "bio": "English novelist and essayist",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 4,
+    "fields": {
+      "name": "Agatha Christie",
+      "bio": "British writer known for detective novels",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 5,
+    "fields": {
+      "name": "Ernest Hemingway",
+      "bio": "American novelist and short-story writer",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 6,
+    "fields": {
+      "name": "J.K. Rowling",
+      "bio": "British author, best known for Harry Potter",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 7,
+    "fields": {
+      "name": "Mark Twain",
+      "bio": "American writer and humorist",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": 6,
+      "isbn": "9780747532699",
+      "published_date": "1997-06-26",
+      "available_copies": 5
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "Adventures of Huckleberry Finn",
+      "author": 7,
+      "isbn": "9780486280615",
+      "published_date": "1884-12-10",
+      "available_copies": 3
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 6,
+    "fields": {
+      "title": "1984",
+      "author": 3,
+      "isbn": "9780451524935",
+      "published_date": "1949-06-08",
+      "available_copies": 4
+    }
+  },
+
+  {
+    "model": "library.member",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "joined_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 2,
+    "fields": {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "9123456780",
+      "joined_date": "2024-01-01"
+    }
+  }
+]
